@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "status": "RESERVE",
+    "customer": {
+      "id": 1,
+      "name": "Customer1",
+      "cash": 12.00
+    },
+    "product": [
+      {
+        "id": 1,
+        "title": "Product1",
+        "cost": 5.00
+      }
+    ]
+  }
+]

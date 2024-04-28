@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "status": "PAY",
+  "customer": {
+    "id": 1,
+    "name": "Customer1",
+    "cash": 7.00
+  },
+  "product": [
+    {
+      "id": 1,
+      "title": "Product1",
+      "cost": 5.00
+    }
+  ]
+}

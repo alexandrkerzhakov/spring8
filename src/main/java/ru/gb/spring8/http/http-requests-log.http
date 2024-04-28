@@ -1,0 +1,79 @@
+GET http://localhost:8080/director/profit/1
+Content-Type: application/json
+
+<> 2024-04-28T220129.200.json
+
+###
+
+GET http://localhost:8080/customer/all
+Content-Type: application/json
+
+<> 2024-04-28T220026.200.json
+
+###
+
+POST http://localhost:8080/operation/pay
+Content-Type: application/json
+
+{
+  "reserveProductId":1,
+  "directorId":1
+}
+
+<> 2024-04-28T215802.200.json
+
+###
+
+GET http://localhost:8080/orders/all
+Content-Type: application/json
+
+<> 2024-04-28T215726.200.json
+
+###
+
+POST http://localhost:8080/operation/reserve
+Content-Type: application/json
+
+{
+  "customerId":1,
+  "productId":1
+}
+
+<> 2024-04-28T215434.200.json
+
+###
+
+POST http://localhost:8080/director/add
+Content-Type: application/json
+
+{
+  "name":"Director1",
+  "profit":"50"
+}
+
+<> 2024-04-28T215301.200.json
+
+###
+
+POST http://localhost:8080/product/add
+Content-Type: application/json
+
+{
+   "title":"Product1",
+   "cost":"5"
+}
+
+<> 2024-04-28T215138.200.json
+
+###
+
+POST http://localhost:8080/customer/add
+Content-Type: application/json
+
+{
+   "name":"Customer1",
+   "cash":12
+}
+
+<> 2024-04-28T214756.200.json
+
